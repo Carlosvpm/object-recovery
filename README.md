@@ -24,7 +24,7 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Esta API tem como objetivo ajudar a polícia civil do estado do Maranhão a reduzir a quantidade de objetos (celulares, placas de carro/carros e documentos) recuperados sob sua tutela aos devidos donos. Ainda em etapa de desenvolvimento e melhorias.
 
 ## Installation
 
