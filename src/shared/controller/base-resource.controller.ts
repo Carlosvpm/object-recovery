@@ -1,4 +1,4 @@
-import { ICrudController } from './model/base-resource-controller';
+import { ICrudController } from '../models/base-resource-controller';
 import {
   Get,
   Param,
@@ -10,8 +10,8 @@ import {
   Body,
 } from '@nestjs/common';
 
-import { ICrudService } from '../services/models/baseCrudService';
 import { BaseEntity } from 'typeorm';
+import { ICrudService } from '../models/baseCrudService';
 
 export function createBaseController(
   service: ICrudService,

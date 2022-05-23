@@ -7,8 +7,10 @@ import { CelularService } from 'src/services/celular.service';
 import { CarroService } from 'src/services/carro.service';
 
 import { Module } from '@nestjs/common';
+import { SharedModule } from 'src/shared/shared.module';
 
 @Module({
+  imports: [SharedModule],
   providers: [
     CarroService,
     CelularService,
@@ -17,7 +19,6 @@ import { Module } from '@nestjs/common';
     ModeloService,
     TipoObjetoService,
   ],
-  controllers: [ControlerModule],
   exports: [
     CarroService,
     CelularService,
