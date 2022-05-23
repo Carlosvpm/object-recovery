@@ -1,20 +1,22 @@
-import { ApiProperty } from "@nestjs/swagger";
-import { TipoObjeto } from "src/tipo-objeto/tipo-objeto.entity";
-import { Column, Entity, JoinColumn, ManyToOne, PrimaryGeneratedColumn } from "typeorm";
+import { ApiProperty } from '@nestjs/swagger';
+import { TipoObjeto } from 'src/models/tipo-objeto.entity';
+import {
+  Column,
+  Entity,
+  JoinColumn,
+  ManyToOne,
+  PrimaryGeneratedColumn,
+} from 'typeorm';
 
 @Entity()
-export class Documento {
+export class Carro {
   @ApiProperty()
   @PrimaryGeneratedColumn()
   id: number;
 
-  @ApiProperty()
+  @ApiProperty({ maxLength: 7 })
   @Column({ unique: true })
-  numero: string;
-
-  @ApiProperty()
-  @Column({ unique: true })
-  cpf: string;
+  placa: string;
 
   @ApiProperty()
   @Column()

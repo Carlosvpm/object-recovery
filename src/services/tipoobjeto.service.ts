@@ -1,9 +1,5 @@
-import { TipoObjeto } from 'src/tipo-objeto/tipo-objeto.entity';
+import { TipoObjeto } from 'src/models/tipo-objeto.entity';
 import { createResourceService } from 'src/shared/services/base-resource.service';
-/*
-https://docs.nestjs.com/providers#services
-*/
-
 import { Injectable } from '@nestjs/common';
 
 @Injectable()

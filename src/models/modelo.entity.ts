@@ -1,6 +1,6 @@
-import { Celular } from 'src/celular/celular.entity';
+import { Celular } from 'src/models/celular.entity';
 import { ApiProperty } from '@nestjs/swagger';
-import { Marca } from 'src/marca/marca.entity';
+import { Marca } from 'src/models/marca.entity';
 import {
   Column,
   Entity,

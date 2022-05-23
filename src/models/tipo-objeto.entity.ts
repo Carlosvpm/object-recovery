@@ -1,8 +1,8 @@
-import { Documento } from './../documento/documento.entity';
-import { Carro } from './../carros/carro.entity';
+import { Documento } from './documento.entity';
+import { Carro } from './carro.entity';
 import { ApiProperty } from '@nestjs/swagger';
 import { Column, Entity, OneToMany, PrimaryGeneratedColumn } from 'typeorm';
-import { Celular } from 'src/celular/celular.entity';
+import { Celular } from 'src/models/celular.entity';
 
 @Entity()
 export class TipoObjeto {

@@ -1,8 +1,8 @@
-import { Celular } from 'src/celular/celular.entity';
+import { Celular } from 'src/models/celular.entity';
 
 import { ApiProperty } from '@nestjs/swagger';
 import { Column, OneToMany, PrimaryGeneratedColumn, Entity, JoinColumn } from 'typeorm';
-import { Modelo } from 'src/modelo/modelo.entity';
+import { Modelo } from 'src/models/modelo.entity';
 
 
 @Entity()

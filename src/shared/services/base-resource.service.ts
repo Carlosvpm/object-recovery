@@ -13,6 +13,14 @@ export function createResourceService(repository): Type<any> {
       return this.resourceRepository.find();
     }
 
+    async getPorTipo(idtipo: number): Promise<BaseEntity[]> {
+      return this.resourceRepository.find({
+        where: {
+          id_tipo: idtipo,
+        },
+      });
+    }
+
     async getById(id: number): Promise<BaseEntity> {
       return this.resourceRepository.findOne({ where: { id: id } });
     }

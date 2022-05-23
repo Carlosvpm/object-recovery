@@ -1,5 +1,5 @@
-import { Marca } from '../marca/marca.entity';
-import { TipoObjeto } from 'src/tipo-objeto/tipo-objeto.entity';
+import { Marca } from './marca.entity';
+import { TipoObjeto } from 'src/models/tipo-objeto.entity';
 import { ApiProperty } from '@nestjs/swagger';
 import {
   Column,
@@ -8,7 +8,7 @@ import {
   ManyToOne,
   PrimaryGeneratedColumn,
 } from 'typeorm';
-import { Modelo } from 'src/modelo/modelo.entity';
+import { Modelo } from 'src/models/modelo.entity';
 
 @Entity()
 export class Celular {
