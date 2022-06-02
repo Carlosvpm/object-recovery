@@ -24,7 +24,7 @@
 
 ## Description 💡
 
-Esse projeto tem por finalidade exercitar conceitos de TypeScipt, Classes, Objetos, Princípios SOLID, Clean Code e conexão com banco de dados por meio da prática em programação.
+Esse projeto tem por finalidade oferecer uma API para consulta de objetos furtados (placas de carro, celulares e documentos) sob a custódia da Polícia Civil do estado do Maranhão. Além de exercitar conceitos de TypeScipt, Classes, Objetos, Princípios SOLID, Clean Code e conexão com banco de dados por meio da prática em programação.
 
 ## Installation
 
