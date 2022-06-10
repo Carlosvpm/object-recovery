@@ -31,4 +31,18 @@ export class CelularService extends createResourceService(Celular) {
       },
     });
   }
+
+  // verificaTipoCelular(celular: Celular): boolean {
+  //   if (celular.id_tipo != 1) {
+  //     return false;
+  //   } else {
+  //     return true;
+  //   }
+  // }
+
+  async create(celular: Celular) {
+    const createdCelular = this.resourceRepository.create(celular);
+    await this.resourceRepository.save(celular);
+    return createdCelular;
+  }
 }

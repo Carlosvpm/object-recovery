@@ -18,6 +18,11 @@ export class DocumentoController extends createBaseController(
     return await this.service.getDocumentoPorCpf(cpf);
   }
 
+  @Get('findByNumber/:numero')
+  async getDocumetoPorNumero(@Param('numero') numero: string) {
+    return await this.service.getDocumentoPorNumero(numero);
+  }
+
 
 
 }
