@@ -22,9 +22,9 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
+## Description 💡
 
-Esta API tem como objetivo ajudar a polícia civil do estado do Maranhão a reduzir a quantidade de objetos (celulares, placas de carro/carros e documentos) recuperados sob sua tutela aos devidos donos. Ainda em etapa de desenvolvimento e melhorias.
+Esse projeto tem por finalidade oferecer uma API para consulta de objetos furtados (placas de carro, celulares e documentos) sob a custódia da Polícia Civil do estado do Maranhão. Além de exercitar conceitos de TypeScipt, Classes, Objetos, Princípios SOLID, Clean Code e conexão com banco de dados por meio da prática em programação.
 
 ## Installation
 
@@ -58,16 +58,3 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
